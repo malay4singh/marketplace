@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    width: 100vw;
+    position: fixed;
+    background-color: #000e4b;
+}
+
+.nav_limit{
+    margin: 0 auto;
+    max-width: 1325px;
+}
+
+.nav_container{
+    margin: 0 auto;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_icon{
+    margin-right: 12px;
+}
+
+.cart_icon:hover{
+    cursor: pointer;
+}
+
+.cart{
+    position: fixed;
+    right: 10%;
+    top: 90px;
+    /* border: 1px solid black; */
+    z-index: 10;
+    background-color: #FFFFF0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 280px;
+    /* right: -100%; */
+}
+
+.cart_card{
+    display: flex;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.thumbnail{
+    background-image: url("https://wiki.dave.eu/images/4/47/Placeholder.png");
+    height: 70px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+
+.brand_cart{
+    font-size: 11px;
+    color: #878787;
+}
+
+.content{
+    margin: 10px;
+    /* border: 2px solid black; */
+    font-size: 15px;
+    width: 170px;
+}
+
+.content div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.content div img:hover{
+    cursor: pointer;
+}
+
+.empty_cart{
+    /* border: 2px solid black; */
+    margin: 15px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #878787;
+    font-size: 18px;
+}
+
+.products{
+    background-color: #98c1d9;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+.products_container{
+    max-width: 1325px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+
+.products_heading{
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards_container{
+    display: none;
+    /* border: 2px solid black; */
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+    background-color: #FFFFF0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title{
+    max-width: 160px;
+    font-size: 20px;
+}
+
+.title span{
+    font-size: 11px;
+    color: #878787;
+}
+
+.image{
+    /* background-image: url("https://wiki.dave.eu/images/4/47/Placeholder.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+}
+
+.purchase{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy{
+    background-color: #FFA41C;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.buy:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price{
+    font-size: 26px;
+}
+
+.description{
+    padding: 10px;
+    display: none;
+    max-width: 230px;
+}
+
+.description span{
+    font-size: 12px;
+}
+
+.more{
+    padding: 10px;
+    font-size: 12px;
+    color: #878787;
+}
+
+.products_heading:hover{
+    cursor: pointer;
+}
+
+.more:hover{
+    cursor: pointer;
+}
