@@ -8,7 +8,7 @@
 nav{
     width: 100vw;
     position: fixed;
-    background-color: #000e4b;
+    background-color: #35C4C2;
 }
 
 .nav_limit{
@@ -94,7 +94,7 @@ nav{
 }
 
 .products{
-    background-color: #98c1d9;
+    background-color: #D5CAD6;
     padding-top: 80px;
     padding-bottom: 40px;
     min-height: 100vh;
