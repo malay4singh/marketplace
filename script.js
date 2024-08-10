@@ -4,26 +4,18 @@ async function getData(){
     res=await axios.get('https://dummyjson.com/products');
     data=res.data.products;
 
-    console.log(data);
-
     data.forEach(item => {
-        if(item.category==="smartphones"){
-            container=$('#smartphones .cards_container');
-        }
-        else if(item.category==="laptops"){
-            container=$('#laptops .cards_container');
+        if(item.category==="beauty"){
+            container=$('#beauty .cards_container');
         }
         else if(item.category==="fragrances"){
             container=$('#fragrances .cards_container');
         }
-        else if(item.category==="skincare"){
-            container=$('#skincare .cards_container');
+        else if(item.category==="furniture"){
+            container=$('#furniture .cards_container');
         }
         else if(item.category==="groceries"){
             container=$('#groceries .cards_container');
-        }
-        else if(item.category==="home-decoration"){
-            container=$('#home_decoration .cards_container');
         }
 
         createCard(item, container);
